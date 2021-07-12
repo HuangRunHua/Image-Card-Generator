@@ -53,7 +53,7 @@ static var AllCards: [ImageCard] = [
 点击新建卡片按钮后，随机从这五个卡片中选出一个卡片并展示选中的卡片。通过分享卡片按钮可将生成的.imagecard文件分享给其他人。
 
 ## .imagecard文件阅读器
-如果要预览生成的.imagecard文件，请访问[ImageCard File Viewer]()
+如果要预览生成的.imagecard文件，请访问[ImageCard File Viewer](https://github.com/HuangRunHua/ImageCardViewer)
 
 ## 后记
 如果不出意外的话，我将不会更新这个文档（手动狗头）因为好玩的东西太多了～
