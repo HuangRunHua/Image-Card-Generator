@@ -10,9 +10,11 @@
 		BD9131C5269B37EC00A8ADC9 /* Image_Card_GeneratorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9131B2269B37E600A8ADC9 /* Image_Card_GeneratorApp.swift */; };
 		BD9131C6269B37EC00A8ADC9 /* Image_Card_GeneratorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9131B2269B37E600A8ADC9 /* Image_Card_GeneratorApp.swift */; };
 		BD9131C7269B37EC00A8ADC9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9131B3269B37E600A8ADC9 /* ContentView.swift */; };
-		BD9131C8269B37EC00A8ADC9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9131B3269B37E600A8ADC9 /* ContentView.swift */; };
 		BD9131C9269B37EC00A8ADC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD9131B4269B37EC00A8ADC9 /* Assets.xcassets */; };
 		BD9131CA269B37EC00A8ADC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD9131B4269B37EC00A8ADC9 /* Assets.xcassets */; };
+		BD9131D5269B382700A8ADC9 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9131D4269B382700A8ADC9 /* File.swift */; };
+		BD9131D6269B382700A8ADC9 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9131D4269B382700A8ADC9 /* File.swift */; };
+		BD9131D8269C0DDE00A8ADC9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9131D7269C0DDE00A8ADC9 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		BD9131C1269B37EC00A8ADC9 /* Image Card Generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Image Card Generator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD9131C3269B37EC00A8ADC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD9131C4269B37EC00A8ADC9 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		BD9131D4269B382700A8ADC9 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		BD9131D7269C0DDE00A8ADC9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				BD9131B2269B37E600A8ADC9 /* Image_Card_GeneratorApp.swift */,
-				BD9131B3269B37E600A8ADC9 /* ContentView.swift */,
 				BD9131B4269B37EC00A8ADC9 /* Assets.xcassets */,
+				BD9131D3269B381900A8ADC9 /* Data */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -76,6 +80,7 @@
 		BD9131BB269B37EC00A8ADC9 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				BD9131B3269B37E600A8ADC9 /* ContentView.swift */,
 				BD9131BC269B37EC00A8ADC9 /* Info.plist */,
 			);
 			path = iOS;
@@ -84,10 +89,19 @@
 		BD9131C2269B37EC00A8ADC9 /* macOS */ = {
 			isa = PBXGroup;
 			children = (
+				BD9131D7269C0DDE00A8ADC9 /* ContentView.swift */,
 				BD9131C3269B37EC00A8ADC9 /* Info.plist */,
 				BD9131C4269B37EC00A8ADC9 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		BD9131D3269B381900A8ADC9 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				BD9131D4269B382700A8ADC9 /* File.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD9131C7269B37EC00A8ADC9 /* ContentView.swift in Sources */,
+				BD9131D5269B382700A8ADC9 /* File.swift in Sources */,
 				BD9131C5269B37EC00A8ADC9 /* Image_Card_GeneratorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -196,7 +211,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD9131C8269B37EC00A8ADC9 /* ContentView.swift in Sources */,
+				BD9131D6269B382700A8ADC9 /* File.swift in Sources */,
+				BD9131D8269C0DDE00A8ADC9 /* ContentView.swift in Sources */,
 				BD9131C6269B37EC00A8ADC9 /* Image_Card_GeneratorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
